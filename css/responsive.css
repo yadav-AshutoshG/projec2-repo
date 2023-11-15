@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 430px) {
+    .box {
+        width: 80%;
+
+    }
+
+    .qr-footer a {
+        margin-block: 5px;
+        width: 95px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 255px) {
+
+    .col {
+        flex-direction: column;
+    }
+    .col select{
+        width: 80%;
+    }
+    .qr-footer {
+        flex-direction: column;
+
+    }
+}
